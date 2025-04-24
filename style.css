@@ -1,0 +1,54 @@
+
+body{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background-color: #133E87;
+}
+h1{
+  color: beige;
+  font-size: 5rem;
+  margin: 5%;
+}
+
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+ 
+}
+
+.btn{
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+  border: 10px solid;
+}
+
+ .item1{
+  background-color: green;
+  
+}  
+.item2{
+  background-color: red;
+}
+.item3{
+  background-color: yellow;
+}
+.item4{
+  background-color: blue;
+}
+
+.pressed{
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
